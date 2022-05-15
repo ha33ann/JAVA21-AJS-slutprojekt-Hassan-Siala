@@ -1,0 +1,118 @@
+
+
+body{
+    text-align: center;
+    background-color: white;
+    color: gray;
+}
+
+img {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 5rem;
+}
+
+h2{
+    text-align:center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h3, p{
+    padding-left: 1rem;
+    font-family: 'Quicksand', sans-serif;
+	margin-bottom: 30px;
+  
+}
+
+
+#zoom1 {
+    width: 600px;
+    height: auto;
+
+    transition: transform ease-in-out 0.3s;
+  }
+   
+  #zoom1:hover { transform: scale(1.2); }
+
+  header {
+	height: 500px;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-image: url("https://thumbs.dreamstime.com/z/dog-shows-growth-phase-puppy-to-adult-panorama-144391069.jpg");
+}
+header .overlay{
+	color: black;
+	text-shadow: 1px 1px 1px #333;
+	
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+	margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+text-align: center;
+}
+
+
+button {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: #333;
+	background: #fff;
+	margin-bottom: 50px;
+	box-shadow: 0 3px 20px 0 #0000003b;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+}
+button:hover{
+	cursor: pointer;
+}
+
+
+
+.product{
+    border: 0 !important;
+    box-shadow: none;
+}
+
+.border{
+    border: 0 !important;
+}
+
+input{
+    text-align: center;
+    border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: #333;
+	background: #fff;
+	margin-bottom: 50px;
+	box-shadow: 0 3px 20px 0 #0000003b;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+ }
+
+ .logintext{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+	margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+text-align: center;
+ }
